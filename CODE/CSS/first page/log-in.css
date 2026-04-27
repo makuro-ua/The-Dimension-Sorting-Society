@@ -1,31 +1,68 @@
 #wrap
-  { min-height: 460px; background: #fff; display: flex; align-items: center; justify-content: center; }
+  { min-height: 460px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
   
 #box 
-  { border: 2px solid #000; padding: 2.5rem 2rem; width: 320px; box-sizing: border-box; }
+  { border: 2px solid #000; 
+    padding: 2.5rem 2rem;
+    width: 320px; 
+    box-sizing: border-box; 
+  }
 
 #box label 
-  { display: block; font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; color: #000; margin-bottom: 5px; letter-spacing: 0.5px; }
+  { display: block;
+    font-family: Arial, sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     color: #000;
+     margin-bottom: 5px;
+     letter-spacing: 0.5px; 
+  }
   
 #box input
-  { display: block; width: 100%; box-sizing: border-box; border: 1.5px solid #000; font-family: Arial, sans-serif; font-size: 14px; padding: 8px; margin-bottom: 1.2rem; outline: none; color: #000; background: #fff; border-radius: 0; }
+  { display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1.5px solid #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    margin-bottom: 1.2rem;
+    outline: none;
+    color: #000;
+    background: #fff;
+    border-radius: 0; 
+  }
 
 #btn 
-  { display: block; width: 100%; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; background: #000; color: #fff; border: 2px solid #000; padding: 11px; cursor: pointer; border-radius: 0; letter-spacing: 1.5px; margin-top: 0.3rem; }
+  { display: block;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+    padding: 11px;
+    cursor: pointer; 
+    border-radius: 0;
+    letter-spacing: 1.5px; 
+    margin-top: 0.3rem;
+  }
 
 #btn:hover
-  { background: #fff; color: #000; }
+  { background: #000000;
+    color: #fff; 
+  }
 
 #err 
-  { font-family: Arial, sans-serif; font-size: 12px; color: #000; margin-top: 10px; min-height: 16px; }
-
-#done
-  { display: none; min-height: 460px; align-items: center; justify-content: center; flex-direction: column; }
-
-#done-msg 
-  { font-family: Arial, sans-serif; font-size: 22px; color: #fff; }
-
-#back 
-  { font-family: Arial, sans-serif; font-size: 13px; margin-top: 14px; background: none; border: 1px solid rgba(255,255,255,0.6); color: #fff; padding: 5px 16px; cursor: pointer; letter-spacing: 0.5px; }
-
-
+  { font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+    margin-top: 10px;
+    min-height: 16px; 
+  }
