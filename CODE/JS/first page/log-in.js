@@ -10,8 +10,10 @@ function go() {
   document.getElementById('wrap').style.display = 'none';
 
   var done = document.getElementById('done');
-  done.src = special ? "HTML/Hidden/easteregg.html" : "HTML/Main/Main page.html";
-
+  done.style.display = 'block';
+    setTimeout(function redirectToPage() {
+      window.location.href = special ? "HTML/Hidden/easteregg.html" : "HTML/Main/Main page.html";
+    }, 500);
 }
 
 function reset() {
