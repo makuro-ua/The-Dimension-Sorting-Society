@@ -12,8 +12,8 @@ function go() {
   var done = document.getElementById('done');
   done.style.display = 'block';
     setTimeout(function redirectToPage() {
-      window.location.href = special ? "CODE/HTML/Hidden/easteregg.html" : "CODE/HTML/Main/Main page.html";
-    }, 500);
+      window.location.href = special ? 'CODE/HTML/Hidden/easteregg.html' : 'CODE/HTML/Main/Main page.html';
+    });
 }
 
 function reset() {
