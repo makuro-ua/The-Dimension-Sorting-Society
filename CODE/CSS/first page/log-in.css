@@ -1,6 +1,6 @@
 #wrap
   { min-height: 460px;
-    background: #000000;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -8,7 +8,6 @@
   
 #box 
   { border: 2px solid #000; 
-    color: #fff;
     padding: 2.5rem 2rem;
     width: 320px; 
     box-sizing: border-box; 
@@ -19,7 +18,7 @@
     font-family: Arial, sans-serif;
      font-size: 12px;
      font-weight: bold;
-     color: #ffffff;
+     color: #000;
      margin-bottom: 5px;
      letter-spacing: 0.5px; 
   }
@@ -63,7 +62,7 @@
 #err 
   { font-family: Arial, sans-serif;
     font-size: 12px;
-    color: #ffffff;
+    color: #000;
     margin-top: 10px;
     min-height: 16px; 
   }
