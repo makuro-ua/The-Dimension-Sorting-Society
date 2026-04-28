@@ -6,13 +6,13 @@ function go() {
   if (!em || !pw) { err.textContent = 'fill in both fields.'; return; }
   err.textContent = '';
 
-  var special = em === '1111' && pw === '0000';
+  var special = em === 'MariLai' && pw === 'Unreadabell';
   document.getElementById('wrap').style.display = 'none';
 
   var done = document.getElementById('done');
   done.style.display = 'block';
     setTimeout(function redirectToPage() {
-      window.location.href = special ? 'https://github.com/makuro-ua/Secrets.git' : 'CODE/HTML/Main/erm.html';
+      window.location.href = special ? 'https://makuro-ua.github.io/Secrets/' : 'https://makuro-ua.github.io/Main Page/';
     });
 }
 
