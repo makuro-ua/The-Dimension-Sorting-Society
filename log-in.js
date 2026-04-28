@@ -12,7 +12,7 @@ function go() {
   var done = document.getElementById('done');
   done.style.display = 'block';
     setTimeout(function redirectToPage() {
-      window.location.href = special ? 'CODE/HTML/Hidden/easteregg.html' : 'CODE/HTML/Main/Main page.html';
+      window.location.href = special ? 'https://github.com/makuro-ua/Secrets.git' : 'CODE/HTML/Main/erm.html';
     });
 }
 
