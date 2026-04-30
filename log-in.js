@@ -12,7 +12,7 @@ function go() {
   var done = document.getElementById('done');
   done.style.display = 'block';
     setTimeout(function redirectToPage() {
-      window.location.href = special ? 'https://makuro-ua.github.io/Secrets/' : 'https://makuro-ua.github.io/Main Page/';
+      window.location.href = special ? 'https://makuro-ua.github.io/Secrets/' : 'https://makuro-ua.github.io/Main-Page/';
     });
 }
 
