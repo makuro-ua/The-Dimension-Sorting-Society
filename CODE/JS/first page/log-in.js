@@ -4,12 +4,18 @@ function go() {
   var err = document.getElementById('err');
   if (!em || !pw) { err.textContent = 'fill in both fields.'; return; }
   err.textContent = '';
-  var special = em === '1111' && pw === '0000';
-  document.getElementById('wrap').style.display = 'none';
-  var done = document.getElementById('done');
-  done.style.background = special ? '#1565C0' : '#2E7D32';
-  done.style.display = 'flex';
-  document.getElementById('done-msg').textContent = special ? "you're in." : 'logged in.';
+  
+  var url = '';
+  if (em === 'Klara' && pw === '021481') {
+    url = 'https://makuro-ua.github.io/The-Folier-s-Inn/';
+  } else if (em === 'Maria' && pw === 'Lairus') {
+    url = 'https://makuro-ua.github.io/Secrets/';
+  } else {
+    err.textContent = 'invalid email or password.';
+    return;
+  }
+  
+  window.location.href = url;
 }
 
 function reset() {
