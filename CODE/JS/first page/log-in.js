@@ -1,14 +1,14 @@
 function go() {
-  var em = document.getElementById('em').value.trim();
+  var em = document.getElementById('em').value.trim().toLowerCase();
   var pw = document.getElementById('pw').value.trim();
   var err = document.getElementById('err');
   if (!em || !pw) { err.textContent = 'fill in both fields.'; return; }
   err.textContent = '';
   
   var url = '';
-  if (em === 'Klara' && pw === '021481') {
+  if (em === 'klara' && pw === '021481') {
     url = 'https://makuro-ua.github.io/The-Folier-s-Inn/';
-  } else if (em === 'Maria' && pw === 'Lairus') {
+  } else if (em === 'maria' && pw === 'Lairus') {
     url = 'https://makuro-ua.github.io/Secrets/';
   } else if (em === 'mauvrydelacenda@dimenmail.com' && pw === '010881') {
     url = 'https://makuro-ua.github.io/Main-Page/';
