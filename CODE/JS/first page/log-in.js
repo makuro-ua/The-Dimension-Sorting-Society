@@ -17,7 +17,7 @@ function go() {
     return;
   }
   
-  window.location.href = url;
+  window.location.href = url;  
 }
 
 function reset() {
