@@ -10,6 +10,8 @@ function go() {
     url = 'https://makuro-ua.github.io/The-Folier-s-Inn/';
   } else if (em === 'Maria' && pw === 'Lairus') {
     url = 'https://makuro-ua.github.io/Secrets/';
+  } else if (em === 'mauvrydelacenda@dimenmail.com' && pw === '010881') {
+    url = 'https://makuro-ua.github.io/Main-Page/';
   } else {
     err.textContent = 'invalid email or password.';
     return;
