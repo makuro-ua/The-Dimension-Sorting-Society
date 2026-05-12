@@ -5,6 +5,9 @@ function go() {
   if (!em || !pw) { err.textContent = 'fill in both fields.'; return; }
   err.textContent = '';
   
+  console.log('Email entered: "' + em + '"');
+  console.log('Password entered: "' + pw + '"');
+  
   var url = '';
   if (em === 'klara' && pw === '021481') {
     url = 'https://makuro-ua.github.io/The-Folier-s-Inn/';
@@ -17,6 +20,7 @@ function go() {
     return;
   }
   
+  console.log('Redirecting to: ' + url);
   window.location.href = url;  
 }
 
